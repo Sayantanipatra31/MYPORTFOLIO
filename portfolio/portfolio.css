@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: linear-gradient(to right,rgb(66, 14, 81),rgb(28, 2, 42)); 
+}
+#nav
+{
+    display: flex;
+}
+#navbarleft
+{
+
+  height:60px;
+  width: 47%;
+  color:whitesmoke;
+  display :flex;
+  align-items: center;
+  padding-left: 90px;
+  font-size:30px;
+}
+#navright
+{
+ 
+  height:60px;
+  width: 57%;
+  color:whitesmoke;
+  display :flex;
+  align-items: center;
+  padding-left: 70px;
+  font-size:20px;
+  margin-left: 120px;
+}
+#navright ul
+{
+    display :flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+#navright ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+.hero
+{
+    display:flex;
+    justify-content: space-around;
+}
+#left{
+    
+    width:50%;
+    margin-bottom: 250px;
+    margin-left: 70px;
+    margin-top: 100px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20%;
+    font-size: 120px;
+    color: rgb(236, 139, 255);
+    
+}
+#right{
+    
+    width:500px;
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border-radius: 70%;
+    margin-left: 10px;
+    margin-right: 50px;
+    border-width: 7px;
+    background: whitesmoke;
+    box-shadow: rgb(255, 75, 228)0px 23px 55px, rgb(225, 255, 76) 0px -19px 30px, rgb(225, 255, 76) 0px 4px 6px, rgba(252, 251, 251, 0.986) 0px 12px 13px, rgba(250, 250, 250, 0.975) 0px -3px 5px;;
+
+    
+}
+#rightimg
+{
+    height:480px;
+    width:480px;
+    background-color: bisque;
+    border-radius: 70%;
+    background-image: url(IMG_20191228_205351_142.jpg);
+    background-size: cover;
+}
+#about1
+{
+    
+   height: 140px;
+   width: 80%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+    background-color:rgba(255, 255, 255, 0.17);
+    box-shadow: rgb(5, 20, 35) 0px 20px 30px -10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    border-radius: 50px;
+    color: #ebc7ff;
+    backdrop-filter: blur(23px);
+    margin-left: 40px;
+}
+button
+{
+    margin-top: 20px;
+    margin-left: 200px;
+    width:100px;
+    height: 50px;
+    border-radius: 50px;
+    background-color:rgba(255, 255, 255, 0.17);
+    box-shadow: rgb(5, 20, 35) 0px 20px 30px -10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color:  #ebc7ff;
+    font-size: 20px;
+}
+button:hover{
+    width:105px;
+    height:55px;
+}
+a{
+    text-decoration: none;
+    color:  #ebc7ff;
+}
+.b1{
+    margin-left: 40px;
+}
+#a1{
+    color: azure;
+}
+#a1:hover{
+   font-size: 23px;
+   color: blueviolet;
+}
+span
+{
+  opacity: 0;
+  transition: all 1s ease;
+  display: inline-block;
+  transform: translateY(50px);
+}
+span.fade{
+    opacity: 1;
+    transform: translateY(0px);
+}
+/* -------------------About------------------ */
+#about
+{
+    padding-top: 70px;
+}
+#Aboutme1
+{
+    font-size: 80px;
+    font-weight: bold;
+}
+#image
+{
+    width:550px;
+    background-color: antiquewhite;
+    height: 550px;
+    background-image: url(IMG_20220908_184555_400.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 80px;
+    /* margin-bottom: 200px; */
+    margin-right: 50px;
+    border-width: 40px;
+    border-color: white;
+    transition: all;
+    transition-duration: 530ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2ms;
+}
+#aboutme
+{
+    height:180px;
+    width:650px;
+}
+#writing
+{
+   width:50%;
+   height: 100px;
+    color:  #ebc7ff;
+    margin-right: 140px;
+    margin-top: 80px;
+    margin-left: 5px;
+}
+.main
+{
+    display: flex;
+    justify-content: space-around;
+}
+.listsocial a
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:40px;
+    height:40px;
+    background-color:rgba(255, 255, 255, 0.17);
+    box-shadow: rgb(5, 20, 35) 0px 20px 30px -10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin-right: 20px;
+    color: #ebc7ff;
+    border-radius: 50%;
+    
+}
+.listsocial a:hover
+{
+    width:48px;
+    height:48px;
+}
+.listsocial
+{   
+    margin-top: 40px;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+.listsocial a i{
+    font-size: 28px;
+}
+
+#image:hover{
+    box-shadow: rgb(241, 88, 218)0px 23px 55px, rgb(54, 251, 14) 0px -19px 30px, rgb(9, 244, 40) 0px 4px 6px, rgba(252, 251, 251, 0.986) 0px 15px 13px, rgba(250, 250, 250, 0.975) 0px -3px 5px;
+}
+/* -------------------academics--------------------- */
+#academics
+{
+    margin-top: 170px;
+}
+h1{
+    margin-top: 5px;
+    color:#ebc7ff;
+    margin-left: 110px;
+    font-size: 100px;
+    margin-bottom: 70px;
+    /* text-shadow: 2px 7px 9px rgba(172, 232, 254, 0.738); */
+
+}
+.school
+{
+    height: 350px;
+    width: 350px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    background-color:rgba(255, 255, 255, 0.17);
+    box-shadow: rgb(5, 20, 35) 0px 20px 30px -10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all;
+    transition-duration: 530ms;
+    transition-timing-function: ease-in;
+    transition-delay: 2ms;
+}
+.school:hover{
+    height: 360px;
+    width: 360px;
+    box-shadow: rgb(241, 88, 218)0px 23px 55px, rgb(54, 251, 14) 0px -19px 30px, rgb(9, 244, 40) 0px 4px 6px, rgba(252, 251, 251, 0.986) 0px 15px 13px, rgba(250, 250, 250, 0.975) 0px -3px 5px;
+}
+.college
+{
+    height: 350px;
+    width: 350px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    background-color:rgba(255, 255, 255, 0.17);
+    box-shadow: rgb(5, 20, 35) 0px 20px 30px -10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all;
+    transition-duration: 530ms;
+    transition-timing-function: ease-in;
+    transition-delay: 2ms;
+}
+.college:hover{
+    height: 360px;
+    width: 360px;
+    box-shadow: rgb(241, 88, 218)0px 23px 55px, rgb(243, 251, 14) 0px -19px 30px, rgb(244, 236, 9) 0px 4px 6px, rgba(252, 251, 251, 0.986) 0px 15px 13px, rgba(250, 250, 250, 0.975) 0px -3px 5px;
+}
+    
+.courses
+{
+    height: 350px;
+    width: 350px;
+    margin-bottom: 50px;
+    background-color:rgba(255, 255, 255, 0.17);
+    box-shadow: rgb(5, 20, 35) 0px 20px 30px -10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all;
+    transition-duration: 530ms;
+    transition-timing-function: ease-in;
+    transition-delay: 2ms;
+}
+.courses:hover{
+    height: 360px;
+    width: 360px;
+    box-shadow: rgb(241, 88, 218)0px 23px 55px, rgb(14, 207, 251) 0px -19px 30px, rgb(26, 226, 252) 0px 4px 6px, rgba(252, 251, 251, 0.986) 0px 15px 13px, rgba(250, 250, 250, 0.975) 0px -3px 5px;
+   
+}
+.container
+{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.para
+{
+    margin-right: 10px;
+    margin-left: 17px;
+    font-size: 21px;
+    color: #ebc7ff;
+    font-weight: bold;
+}
+.containerh
+{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.schoolh
+{
+    height: 60px;
+    width: 350px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    background-color:rgba(255, 255, 255, 0.17);
+    box-shadow: rgb(5, 20, 35) 0px 20px 30px -10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-shadow: rgb(241, 88, 218)0px 23px 55px, rgb(54, 251, 14) 0px -19px 30px, rgb(9, 244, 40) 0px 4px 6px, rgba(252, 251, 251, 0.986) 0px 15px 13px, rgba(250, 250, 250, 0.975) 0px -3px 5px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .schoolh:hover{
+    height:68px;
+    width:358px;
+   
+} */
+.collegeh
+{
+    height: 60px;
+    width: 350px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    background-color:rgba(255, 255, 255, 0.17);
+    box-shadow: rgb(5, 20, 35) 0px 20px 30px -10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-shadow: rgb(241, 88, 218)0px 23px 55px, rgb(243, 251, 14) 0px -19px 30px, rgb(244, 236, 9) 0px 4px 6px, rgba(252, 251, 251, 0.986) 0px 15px 13px, rgba(250, 250, 250, 0.975) 0px -3px 5px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .collegeh:hover{
+    height:68px;
+    width:358px;
+} */
+.coursesh
+{
+    height: 60px;
+    width: 350px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    background-color:rgba(255, 255, 255, 0.17);
+    box-shadow: rgb(5, 20, 35) 0px 20px 30px -10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-shadow: rgb(241, 88, 218)0px 23px 55px, rgb(14, 207, 251) 0px -19px 30px, rgb(26, 226, 252) 0px 4px 6px, rgba(252, 251, 251, 0.986) 0px 15px 13px, rgba(250, 250, 250, 0.975) 0px -3px 5px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .coursesh:hover{
+    height:68px;
+    width:358px;
+} */
+.parah
+{
+    font-weight: bold;
+    font-size: 25px;
+    color: #ebc7ff;
+    font-weight: bold;
+}
+/* -------------------projects------------- */
+#projects
+{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.header1
+{
+margin-bottom: 70px;
+}
+b2
+{
+    margin-left: 8px;
+}
+#contact{
+    margin-top:10px;
+    
+}
+.form
+{
+    height: 450px;
+    width:700px;
+    margin-right: 50px;
+    margin-left: 410px;
+    margin-bottom: 50px;
+    background-color:rgba(255, 255, 255, 0.17);
+    box-shadow: rgb(5, 20, 35) 0px 20px 30px -10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    
+    
+}
+.form input
+{
+    height: 60px;
+    width:450px;
+    background: transparent;
+    outline: none;
+    border:none;
+    border:2px solid rgba(255,255,255,0.2);
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 12px;
+    color: #ebc7ff;
+}
+.b6
+{
+    margin-left: 350px;
+}
+.form input::placeholder
+{
+    color: #ebc7ff;
+    opacity: 0.5;
+
+}
